@@ -26,7 +26,11 @@
 <section>
 <div id="townhouses" class="category">
 	<a>
-		<img src="townhouse_title.jpg" alt="townhouse_image" width="100">
+		<picture>
+            <source media="(min-width: 550px)" srcset="townhouse_title_high.jpg">
+            <source media="(min-width: 400px)" srcset="townhouse_title_medium.jpg">
+            <img src="townhouse_title.jpg" alt="townhouse_image">
+        </picture>
     </a>
     <div class="category_title">
     	<h2>townhouses</h2>
