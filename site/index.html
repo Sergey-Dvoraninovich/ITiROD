@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
 	<link rel="shortcut icon" href="logo_icon.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
 	<title>Realty catalog</title>
 </head>
 <body>
 <header>
-	<nav>
-	    <span>
+	<nav class="header_nav">
+	    <div class = "header_logo">
 	    	<a href="#catalog_title">
-		        <img src="logo.png" alt="logo">
-		        Cozy Home
+		           <img src="logo.png" alt="logo">
+		    	   Cozy home
 		    </a>
-	    </span>
-	    <span>
+	    </div>
+	    <div class = "header_middle_position">
+	    <div class = "header_nav_items">
 		    <a href="#townhouses">Townhouses</a>
-		    <a href="#semi-detached">Semi-detached houses</a>
-		    <a href="#cottages">cottages</a>
-	    </span>
+		    <a href="#semi-detached">Semi-detached</a>
+		    <a href="#cottages">Cottages</a>
+	    </div>
+	    </div>
     </nav>
 </header>
 <div id="catalog_title" class="app_tittle">
@@ -26,32 +31,37 @@
 <section>
 <div id="townhouses" class="category">
 	<a>
-		<picture>
+		<picture class="picture_category_title">
             <source media="(min-width: 550px)" srcset="townhouse_title_high.jpg">
             <source media="(min-width: 400px)" srcset="townhouse_title_medium.jpg">
-            <img src="townhouse_title.jpg" alt="townhouse_image">
+            <img src="townhouse_title.jpg" alt="townhouse_image" class="category_title_img">
         </picture>
     </a>
     <div class="category_title">
-    	<h2>townhouses</h2>
+    	<h2>Townhouses</h2>
     </div>
     <div class = "items_line">
         <div class="catalog_item">
             <h3>Townhouse</h3>
             <figure>
+            <div class="catalog_item_main">
+            <div class="catalog_img">	
             <a class="inline_image">
-                <img src="townhouse_title.jpg" 
-                     width="255" height="255" alt="townhouse">
+                <img src="townhouse1.jpg" alt="townhouse">
             </a>
+            </div>
+            <div class="catalog_list">
             <ul class="categories">
-                <li>Levels: 2</li>
-                <li>Space: 220</li>
-                <li>Style: modern</li>
-                <li>Construction: blocks</li>
+                <li>2 levels</li>
+                <li>220 m<sup>2</sup></li>
+                <li>Modern style</li>
+                <li>Blocks construction</li>
             </ul>
+            </div>
+            </div>
             <figcaption>
             	<button>
-            		Баттон
+            		Show more
             	</button>
             </figcaption>
             </figure>
@@ -59,19 +69,24 @@
         <div class="catalog_item">
             <h3>Townhouse</h3>
             <figure>
+            <div class="catalog_item_main">
+            <div class="catalog_img">	
             <a class="inline_image">
-                <img src="townhouse_title.jpg" 
-                     width="255" height="255" alt="townhouse">
+                <img src="townhouse2.png" alt="townhouse">
             </a>
+            </div>
+            <div class="catalog_list">
             <ul class="categories">
-                <li>Levels: 2</li>
-                <li>Space: 220</li>
-                <li>Style: modern</li>
-                <li>Construction: blocks</li>
+                <li>2 levels</li>
+                <li>220 m<sup>2</sup></li>
+                <li>Modern style</li>
+                <li>Blocks construction</li>
             </ul>
+            </div>
+            </div>
             <figcaption>
             	<button>
-            		Баттон
+            		Show more
             	</button>
             </figcaption>
             </figure>
@@ -81,19 +96,24 @@
         <div class="catalog_item">
             <h3>Townhouse</h3>
             <figure>
+            <div class="catalog_item_main">
+            <div class="catalog_img">	
             <a class="inline_image">
-                <img src="townhouse_title.jpg" 
-                     width="255" height="255" alt="townhouse">
+                <img src="townhouse3.jpg" alt="townhouse">
             </a>
+            </div>
+            <div class="catalog_list">
             <ul class="categories">
-                <li>Levels: 2</li>
-                <li>Space: 220</li>
-                <li>Style: modern</li>
-                <li>Construction: blocks</li>
+                <li>2 levels</li>
+                <li>220 m<sup>2</sup></li>
+                <li>Modern style</li>
+                <li>Blocks construction</li>
             </ul>
+            </div>
+            </div>
             <figcaption>
             	<button>
-            		Баттон
+            		Show more
             	</button>
             </figcaption>
             </figure>
@@ -101,19 +121,24 @@
         <div class="catalog_item">
             <h3>Townhouse</h3>
             <figure>
+            <div class="catalog_item_main">
+            <div class="catalog_img">	
             <a class="inline_image">
-                <img src="townhouse_title.jpg" 
-                     width="255" height="255" alt="townhouse">
+                <img src="townhouse4.jpg" alt="townhouse">
             </a>
+            </div>
+            <div class="catalog_list">
             <ul class="categories">
-                <li>Levels: 2</li>
-                <li>Space: 220</li>
-                <li>Style: modern</li>
-                <li>Construction: blocks</li>
+                <li>2 levels</li>
+                <li>220 m<sup>2</sup></li>
+                <li>Modern style</li>
+                <li>Blocks construction</li>
             </ul>
+            </div>
+            </div>
             <figcaption>
             	<button>
-            		Баттон
+            		Show more
             	</button>
             </figcaption>
             </figure>
@@ -124,78 +149,93 @@
 
 
 <div class="actions">
-<div class="items_line">
+<div class="action_items_line">
 <section>	
 	<div class="action">
 		<h2>Call us</h2>
-		<p>If you have some questions <br> 
+		<p id = "phone_action_text" class = "action_text">If you have some questions <br> 
 		   input your phone number <br>
 		   and we will call you<p >
 		<div class="form_basic">
             <form method="post">
-            <div>
+            <div class="form_basic_main">
                 <label for="phone_num">Phone number</label>
                 <input id="phone_num" type="text" required>
             </div>
-            <button type="submit">Send</button> 
+                <button type="submit">Send</button> 
             </form> 
         </div>
 	</div>
 </section>
-
-    <section>
+<section>
 	<div class="action">
 		<h2>What we build</h2>
-			<p>
+		<ul class = "list_info">
+			<li class = "items_info">
+				<div>
 				<a href="#catalog_title">
-		        <img src="logo.png" alt="logo">
-		        Frame houses
+		            <img src="frame_house.png" alt="Frame houses">
+		            Frame houses
 		        </a>
-			</p>
-			<p>
+		        </div>
+			</li>
+			<li class = "items_info">
+		        <div>
 				<a href="#catalog_title">
-		        <img src="logo.png" alt="logo">
-		        Monolithic houses
+		            <img src="block_house.png" alt="Block houses">
+		            Block houses
 		        </a>
-			</p>
-			<p>
+		        </div>
+			</li>
+			<li class = "items_info">
+		        <div>
 				<a href="#catalog_title">
-		        <img src="logo.png" alt="logo">
-		        Mortgage
+		            <img src="mortgage.png" alt="Mortgage">
+		            Mortgage
 		        </a>
-			</p>
+		        </div>
+			</li>
+		</ul>
 	</div>
-	</section>
+</section>
 </div>
-<div class="items_line">
+<div class="action_items_line">
     <section>
 	<div class="action">
 		<h2>Question and answers</h2>
-		<p>
-			<a href="">
-		    <img src="logo.png" alt="logo">
-		    How we work
-		    </a>
-	    </p>
-	    <p>
-		    <a href="">
-		    <img src="logo.png" alt="logo">
-		    Land selection
-		    </a>
-		</p>
-		<p>
-			<a href="">
-		    <img src="logo.png" alt="logo">
-		    Popular questions
-		    </a>
-	    </p>
+		<ul class = "list_info">
+			<li class = "items_info">
+				<div>
+				<a href="">
+		            <img src="how_we_work.png" alt="How we work" width="70" height="70">
+		            How we work
+		        </a>
+		        </div>
+			</li>
+			<li class = "items_info">
+				<div>
+				<a href="">
+		            <img src="land_selection.png" alt="Land selection" width="70" height="70">
+		            Land selection
+		        </a>
+		        </div>
+			</li>
+			<li class = "items_info">
+				<div>
+				<a href="">
+		            <img src="popular_questions.png" alt="Popular questions" width="70" height="70">
+		            Popular questions
+		        </a>
+		        </div>
+			</li>
+		</ul>
 	</div>
 	</section>
 	<section>
 	<div class="action">
 		<h2>Our partners</h2>
 		<a href="">
-		    <img src="logo.png" alt="logo">
+		    <img id="partners_action" src="partners.png" alt="logo">
 		</a>
 		<div class="form_basic">
             <form method="post">
@@ -207,36 +247,42 @@
 </div>
 </div>
 
-<footer>
+<footer>	
+<div class="footer_items_line">	
 	<div class="contact_data">
-		<ul>
-			<li>
+		<h2>Contact data</h2>
+		<ul class="footer_list">
+			<li class="contact_item">
+				<div>
 				<a href="https://www.youtube.com/">
-				   <img src="townhouse_title.jpg" 
-                        width="10" height="10" alt="youtube">
-                    youtube
-			    </a>
-			</li>
-			<li>
-				<a href="https://www.youtube.com/">
-				   <img src="townhouse_title.jpg" 
-                        width="10" height="10" alt="youtube">
+				   <img src="instagram_logo.png" alt="instagram">
                     instagram
 			    </a>
+			    </div>
 			</li>
-			<li>
+			<li class="contact_item">
+				<div>
 				<a href="https://www.youtube.com/">
-				   <img src="townhouse_title.jpg" 
-                        width="10" height="10" alt="youtube">
+				   <img src="telegram_logo.png" alt="telegram">
                     telegram
 			    </a>
+			    </div>
 			</li>
-			<li>
+			<li class="contact_item">
+				<div>
 				<a href="https://www.youtube.com/">
-				   <img src="townhouse_title.jpg" 
-                        width="10" height="10" alt="youtube">
+				   <img src="youtube_logo.png" alt="youtube">
+                    YouTube
+			    </a>
+			    </div>
+			</li>
+			<li class="contact_item">
+				<div>
+				<a href="https://www.youtube.com/">
+				   <img src="facebook_logo.png" alt="facebook">
                     facebook
 			    </a>
+			    </div>
 			</li>
 		</ul>
 	</div>
@@ -244,6 +290,7 @@
 	    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abe5362f051f64d8114a62f2f3a4f1c5d29b0ffc60749bc692e7bd8dcdb901ef4&amp;source=constructor" width="320" height="240" frameborder="0">
 	    </iframe>
     </div>
+</div>    
 </footer>
 </body>
 </html>
