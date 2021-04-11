@@ -18,13 +18,13 @@ button {
     border-radius: 25px;
     width:60%;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 1.2rem;
 }
 button:hover {
     height: 40px;
     border-radius: 30px;
     width:65%;
-    font-size: 21px;
+    font-size: 1.5rem;
 }
 section{
 	margin: 0;
@@ -38,16 +38,16 @@ header {
 	width: 100%;
 	background: #ffffff;
 	height: 100px;
-	font-size: 23px;
+	font-size: 1.7rem;
 }
 header>nav>div {
 	display: inline-block;
 }
 header>nav>div>a:hover {
-	font-size: 25px;
+	font-size: 1.9rem;
 }
 header>nav>div>div>div>a:hover {
-	font-size: 25px;
+	font-size: 1.9rem;
 	border-bottom: 3px solid;
 }
 .header_middle_position {
@@ -64,7 +64,7 @@ header>nav>div>div>div>a:hover {
 	display: inline-block;
 }
 #heder_nav_semi_deteched {
-    width: 210px;
+    width: 230px;
 }
 #heder_nav_townhouse {
     width: 170px;
@@ -86,8 +86,8 @@ header>nav>div>div>div>a:hover {
 }
 .category_title_img
 {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 .picture_categry_title {
 	width: 100%;
@@ -114,7 +114,7 @@ header>nav>div>div>div>a:hover {
 }
 .catalog_item> h3 {
 	text-align: center;
-	font-size: 19px;
+	font-size: 1.5rem;
 }
 
 .catalog_item_main {
@@ -145,7 +145,7 @@ header>nav>div>div>div>a:hover {
 	vertical-align: middle;
 	list-style-type: none;
 	text-align: center;
-	font-size: 17px;
+	font-size: 1.1rem;
 }
 .categories>li {
 	border-bottom: 3px solid;
@@ -212,7 +212,7 @@ figcaption>button:hover {
 	text-align:center;
 }
 .items_info div:hover {
-	font-size: 19px;
+	font-size: 1.5rem;
 }
 .items_info img {
     vertical-align:middle;
@@ -231,7 +231,7 @@ figcaption>button:hover {
 form {
 }
 label {
-	font-size: 19px;
+	font-size: 1.5rem;
 }
 input[type=text] {
     margin-top: 9px;
@@ -240,7 +240,7 @@ input[type=text] {
     height: 35px;
     border-radius: 25px;
     outline:none;
-    font-size: 19px;
+    font-size: 1.5rem;
 }
 input[type=text]:focus {
     border-color: #a00020; 
@@ -265,54 +265,40 @@ footer {
 	padding: 25px;
 	height: 240px;
 	display: inline-block;
+	padding-left: 75px;
 	background-color: #4f4f4f; 
 	color: #ffffff;
 }
-.foooter_items_line {
+.footer_contact_data {
+	margin-right: 50px;
+	padding: 0px;
 	display: inline-block;
 }
-.contact_data {
-	text-align: center;
-	display: inline-block;
-	margin: 0px;
-	width: 250px;
-	height: 240px;
-	vertical-align: center;
+.footer_grid_item>a {
+	color: #ffffff;
+}
+.footer_grid_item>a:hover {
+	border-bottom: 3px solid;
+}
+.footer_grid_item>a>img {
+	width: 29px;
+    height: 29px;
+}
+.footer_grid_container {
+	display: grid;
+    grid-template-columns: auto auto;
+}
+.footer_grid_item {
+    font-size: 1.5rem;
+    padding: 3px;
+    text-align: center;
+
 }
 .map {
 	position: absolute;
 	right: 25px;
 	vertical-align: center;
 	display: inline-block;
-}
-.footer_list {
-	list-style-type: none;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0px;
-}
-.footer_list>li {
-	margin-bottom: 10px;
-}
-.footer_list>li:last-child {
-	margin-bottom: 0px;
-}
-.contact_item div{
-	text-align: center;
-}
-.contact_item div:hover{
-	font-size: 19px;
-}
-.contact_item img{
-    vertical-align:middle;
-    width: 29px;
-    height: 29px;
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 15px;
-}
-.contact_item>div>a{
-    color: #ffffff;
 }
 
 @media (max-width: 1200px) {
